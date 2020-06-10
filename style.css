@@ -1,0 +1,96 @@
+/* Reset config padrão navegador */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/* Importanto fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Fundo do site */
+body {
+    background: lightgray;
+    color: white;
+}
+/* Estilo do cabeçalho */
+header {
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px  
+}
+
+header div a  {
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+}
+
+.acesso-rapido {
+    font-size: 35px;
+    line-height: 30px;   
+}
+
+header div a:hover {
+    color: white;
+    transition: 700ms;
+}
+
+/* Estilização Corpo da pagina */
+main{
+    text-align: center; 
+}
+
+.sobre{
+    padding: 30px;
+    margin-bottom: 15px;
+}
+
+.sobre img{
+    border-radius: 60%;
+    border: solid;
+    border-color: lightgray;
+}
+
+.sobre h1{
+    font-size: 34px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.sobre h3{
+    font-size: 30px;
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.sobre p{
+    font-size:25px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.sobre li{
+    font-size: 20px;
+    list-style-type: none;
+    text-decoration: underline;
+    color: black;
+}
+
+/* Rede Social */
+.fale-conosco{
+    font-size: 15px;
+    padding: 20px;
+}
+
+.fale-conosco a{
+    text-decoration: underline;
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+}
+
+
+
+
